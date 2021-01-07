@@ -32,7 +32,7 @@ public class HelloController {
     }
 
 
-    @RequestMapping("/")
+    @RequestMapping("/hello2")
     @LogFilter("保存请求日志")
     public String index() {
         return "Hello Spring Boot 2.0!";
